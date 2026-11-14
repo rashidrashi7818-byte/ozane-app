@@ -1,6 +1,6 @@
-# Ozane Accounts — web version
+# TAYBA — web version
 
-These are the built files of the Ozane Accounts web app (Tayba Perfumes), published with GitHub
+These are the built files of the TAYBA web app (Tayba Perfumes), published with GitHub
 Pages so staff can use the app from a phone browser, plus the app's privacy policy.
 
 - App: https://rashidrashi7818-byte.github.io/ozane-app/
