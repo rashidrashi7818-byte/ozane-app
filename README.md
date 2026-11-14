@@ -9,3 +9,8 @@ Pages so staff can use the app from a phone browser, plus the app's privacy poli
 Signing in needs an account created by the business owner; there is no public sign-up. All
 business data lives in a private database with per-user access rules. The application source
 code is kept in a separate private repository.
+
+- Android installer: https://rashidrashi7818-byte.github.io/ozane-app/download/
+
+Everything except `README.md`, `privacy/` and `download/` is overwritten from the
+static export on each publish, so those three are kept by hand.
