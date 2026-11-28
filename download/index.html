@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Install TAYBA</title>
+<title>Install TAYBA on iPhone or Android</title>
 <link rel="icon" href="../icons/icon-192.png" />
 <style>
   :root { --ink:#0f172a; --gold:#e6bd3e; --paper:#f1f5f9; }
@@ -38,107 +38,35 @@
   .note strong { color:var(--paper); }
   footer { margin-top:2rem; text-align:center; font-size:.85rem; }
   footer a { color:#94a3b8; }
-</style>
+  nav { display:grid; grid-template-columns:1fr 1fr; gap:.75rem; }
+  nav a { border:1px solid var(--gold); color:var(--gold); padding:.8rem; border-radius:.8rem; text-align:center; font-weight:700; text-decoration:none; }
+  section { scroll-margin-top:1rem; }
+  </style>
 </head>
 <body>
 <main>
   <header>
     <img class="mark" src="../icons/tayba-mark.png" alt="" />
     <h1>TAYBA</h1>
-    <p class="sub">Outlet accounts &middot; version 1.0.0</p>
+    <p class="sub">Install on your phone</p>
   </header>
-
-  <a class="get" href="../">
-    Open TAYBA
-    <span>Any phone &middot; nothing to download</span>
-  </a>
-
-  <p class="lede" style="margin-top:1rem;text-align:center">
-    Tap that, sign in, and you are working. Everything below is only about
-    keeping an icon on your home screen so you do not type the address again.
-  </p>
-
-  <h2>Put the icon on your phone</h2>
-
-  <p class="lede"><strong>Android.</strong> Open TAYBA with the button above.
-  Under the sign-in box there is a button that says
-  <strong>Install TAYBA on this phone</strong> &mdash; tap it, then tap
-  <strong>Install</strong>. No warnings, nothing to download.</p>
-
-  <p class="note">
-    <strong>Installed it and cannot see it?</strong> Android puts new apps in the
-    apps list, not always on the home screen. Swipe up from the bottom of the home
-    screen to see every app and look for TAYBA there. Press and hold it to drag it
-    onto your home screen. It can take a few seconds to appear.
-  </p>
-
-  <p class="lede" style="margin-top:1rem"><strong>iPhone.</strong> Open TAYBA
-  in <strong>Safari</strong> (not Chrome). Tap the <strong>Share</strong> button
-  at the bottom &mdash; the square with an arrow coming out of it &mdash; scroll
-  down the list, tap <strong>Add to Home Screen</strong>, then <strong>Add</strong>.</p>
-
-  <p class="note">
-    <strong>Add it to the home screen &mdash; do not just bookmark it.</strong>
-    A bookmark signs you out after a week of not using it. The home-screen
-    version keeps you signed in.
-  </p>
-
-  <h2>Or install the Android file</h2>
-
-  <p class="lede">
-    You do not need this. It is the same app. Use it only if you want TAYBA to
-    work from the app drawer like a shop-bought app.
-  </p>
-
-  <p class="note">
-    <strong>Anyone already using the Android file should install this one.</strong>
-    From this version on, the app fetches the latest screens itself every time it
-    opens, so this is the last file anyone has to install. Installing it over the
-    old one keeps everything; you will be asked to sign in once more.
-  </p>
-
-  <a class="get" href="TAYBA-1.0.0.apk" download>
-    Download for Android
-    <span>4 MB &middot; Android 7 or newer</span>
-  </a>
-
-  <p class="lede" style="margin-top:1.25rem">
-    Your phone will show warnings on the way. That is normal &mdash; it is
-    because the file comes from us and not from the Play Store. Three screens
-    stop most people, and on each one the way forward is the small grey writing,
-    not the big blue button:
-  </p>
-
-  <ol>
-    <li><em>&ldquo;This type of file can harm your device&rdquo;</em> &rarr;
-        tap <strong>Download anyway</strong>.</li>
-    <li>Open the file. If it says <em>&ldquo;not allowed to install unknown
-        apps&rdquo;</em> &rarr; tap <strong>Settings</strong>, turn on
-        <strong>Allow from this source</strong>, press <strong>Back</strong>.</li>
-    <li>If it says <em>&ldquo;Unsafe app blocked&rdquo;</em> &rarr; tap
-        <strong>More details</strong>, then <strong>Install anyway</strong>.</li>
-  </ol>
-
-  <p class="lede">Then tap <strong>Install</strong>, wait, and <strong>Open</strong>.</p>
-
-  <p class="note">
-    <strong>If it still will not install:</strong> &ldquo;App not installed&rdquo;
-    means an older copy is on the phone &mdash; uninstall that first. Stuck on
-    &ldquo;Installing&hellip;&rdquo; usually means the phone is out of space.
-    Either way, the button at the top of this page works without any of this.
-  </p>
-
-  <p class="note">
-    <strong>Already have the app?</strong> Install this straight over it. You stay
-    signed in and nothing is lost. Do not uninstall the old one first.
-  </p>
-
-  <p class="note">
-    This app is for Tayba Perfumes staff. It needs an internet connection and
-    your own login; there is nothing to see without one.
-  </p>
-
-  <footer><a href="../">Open the app</a></footer>
+  <nav aria-label="Choose your phone"><a href="#iphone">iPhone</a><a href="#android">Android</a></nav>
+  <section id="iphone" aria-labelledby="ios-title">
+    <h2 id="ios-title">Install on iPhone</h2>
+    <ol>
+      <li>Open this page in <strong>Safari</strong>. If you received it in WhatsApp, copy the link and paste it into Safari.</li>
+      <li>Tap <strong>Open TAYBA for iPhone</strong> below.</li>
+      <li>On the TAYBA screen, tap <strong>Share</strong> (the square with an up arrow), then <strong>Add to Home Screen</strong>. If offered, turn on <strong>Open as Web App</strong>. Tap <strong>Add</strong>.</li>
+    </ol>
+    <a class="get" href="../">Open TAYBA for iPhone<span>Continue in Safari</span></a>
+  </section>
+  <section id="android" aria-labelledby="android-title">
+    <h2 id="android-title">Install on Android</h2>
+    <p class="lede">Open <a style="color:var(--gold)" href="../">TAYBA in Chrome</a>. Tap the three-dot menu and choose <strong>Install app</strong> or <strong>Add to Home screen</strong>.</p>
+    <p>Prefer the Android installer?</p>
+    <a class="get" href="TAYBA-1.0.0.apk" download>Download for Android<span>APK · Android 7 or newer</span></a>
+  </section>
+  <footer><a href="../">Already installed? Open TAYBA</a></footer>
 </main>
 </body>
 </html>
